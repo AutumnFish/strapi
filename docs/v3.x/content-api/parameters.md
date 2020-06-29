@@ -52,6 +52,12 @@ or
 
 `GET /restaurants?id_in=3&id_in=6&id_in=8`
 
+#### Find restaurants logo Is null or Is not null
+
+logo is null  `GET /restaurants?logo_null=true`
+logo is not null `GET /restaurants?logo_null=false`
+
+
 #### Or clauses
 
 If you use the same operator (except for in and nin) the values will be used to build an `OR` query
